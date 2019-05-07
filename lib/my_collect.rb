@@ -2,7 +2,9 @@ def my_collect (array)
   i = 0
   collect = []
   while i < array.length
-    collect << yield(array [i])
+    if colleciton [i] % 2 == 0
+      yield collection [i]
+      collect << collection [i]
     i += 1
   end
   collect
